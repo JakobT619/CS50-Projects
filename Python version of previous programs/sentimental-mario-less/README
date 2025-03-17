@@ -1,0 +1,4 @@
+This program is also quite simple as was one of my earliest practices with python.
+The program may be run with python mario.py
+The user will then be prompted for a height, which must be an integer.
+The program then prints a mario style half pyramid of the height that the user provides.
