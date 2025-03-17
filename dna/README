@@ -1,0 +1,10 @@
+This program takes a sequence of DNA and a CSV file containing STR counts for a list of individuals and then outputs to whom the DNA (most likely) belongs.
+This model somewhat mirrors the CODIS database that the FBI uses to compare DNA of suspects, but with less redundancy. 
+Despite the reduced redundancy (looking at 10 STRs instead of 20 like CODIS), this program still provides only a 1 in 1 quadrillion chance that two DNA samples would match purely by chance. 
+  That is still incredibly accurate.
+
+Main Function: The main function starts by checking for correct command-line arguments. It then reads the DNA database and sequence files, creates a list of subsequences, and finds the longest match 
+  for each subsequence in the sequence. Finally, it checks the database for matching profiles and prints the result.
+Reading Files: The read_csv and read_sequence functions read the database and sequence files, respectively. The database is read into a list of dictionaries, and the sequence is read into a string.
+Longest Match Function: The longest_match function calculates the longest run of a subsequence in the sequence. It loops through each character in the sequence and checks for consecutive matches of the subsequence.
+Checking for Matches: In the main function, the program compares the longest runs of each subsequence with the values in the database to find a matching profile.
