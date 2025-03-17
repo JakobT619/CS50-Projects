@@ -1,2 +1,6 @@
 This program is designed to ask the user how much change is owed and then it will spit out the minimum number of coins with which said change can be made. 
 You can run the program with python cash.py in the command line, and then input an amount for change in DOLLARS, not cents, so 50 cents should be input as .5
+The get_coins Function calculates the minimum number of coins needed to make the change. It first converts the change from dollars to cents to avoid floating point imprecision.
+Then, it defines a list of coin values (25, 10, 5, 1) and initializes a counter for the number of coins.
+The function loops through each coin value in the list. For each coin, it calculates how many coins of that type can be used and updates the remaining cents. It adds the number of coins to the counter.
+The function then returns the total, minimum number of coins needed, and prints the return value for coins.
