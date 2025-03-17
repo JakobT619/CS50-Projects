@@ -1,4 +1,8 @@
 This program is also quite simple as was one of my earliest practices with python.
 The program may be run with python mario.py
-The user will then be prompted for a height, which must be an integer.
-The program then prints a mario style half pyramid of the height that the user provides.
+The user will then be prompted for a height, h, which must be an integer between 1 and 8, including 1 and 8.
+Once a valid height is entered, the program uses nested for loops to print the pyramid of height h, provided by the user.
+The outer loop iterates over each row of the pyramid, and the inner loops print the spaces and hashes for each row.
+The first inner loop prints the spaces before the hashes in each row, the number of spaces decreases by h - i - 1, where h is height and i is the current row number.
+The second inner loop prints the hashes in each row, the number of hashes increases down the pyramid by i + 1, where i is the current row number.
+Finally, print is called to print the pyramid.
