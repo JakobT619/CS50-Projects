@@ -1,2 +1,2 @@
 This program is designed to ask the user how much change is owed and then it will spit out the minimum number of coins with which said change can be made. 
-You can run the program with python cash.py in the command line, and then input an amount for change in DOLLARS, not cents, so 50 cents should be input at .5
+You can run the program with python cash.py in the command line, and then input an amount for change in DOLLARS, not cents, so 50 cents should be input as .5
