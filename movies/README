@@ -1,2 +1,2 @@
-This project includes the database (which is not viewable through github but you can view the schema in schema.txt) and a log in which I recorderd all of my queries and the reasoning for each query.
-The objective was to write a single SQL query that outputs the desired results for each problem, which is included with each sql file.
+This project includes the IMdB database (which is not viewable through github but you can view the schema in schema.txt) and a log in which I recorderd all of my queries and the reasoning for each query.
+The objective was to write a SINGLE SQL query that outputs the desired information for each problem, the information being requested is included with each sql file.
