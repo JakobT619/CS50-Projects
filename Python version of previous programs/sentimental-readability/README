@@ -1,0 +1,6 @@
+This program first asks the user to type in some text, and then outputs the grade level for the text, according to the Coleman-Liau formula.
+Main Function: The main function prompts the user for a text input, calculates the reading level using the calculate_reading_level function, and then prints the reading level using the print_reading_level function.
+Letter, Word, and Sentence Count Functions: These functions count the number of letters, words, and sentences in the text, respectively. They loop through each character in the text and use conditions to update the counters.
+Calculate Reading Level Function: This function calculates the reading level index using the counts from the previous functions. It uses the Coleman-Liau index formula, which involves the average number of letters and 
+  sentences per 100 words.
+Print Reading Level Function: This function prints the reading level based on the index. It handles special cases for very low or high reading levels.
