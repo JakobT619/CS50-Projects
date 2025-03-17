@@ -1,2 +1,2 @@
 This project includes the database (which is not viewable through github but you can view the schema in schema.txt), sql files for each question and its corresponding query, and an answers.txt file.
-The purpose of this project was to practice relatively simple queries that provide the desired information from each SQL file.
+The purpose of this project was to practice relatively simple queries that provide the desired information in each sql file.
