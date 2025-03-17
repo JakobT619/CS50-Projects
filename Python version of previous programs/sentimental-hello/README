@@ -1,0 +1,3 @@
+This program was my first step into python, and thus is quite simple.
+You can run the program with python hello.py.
+The program will then prompt the user for their name, and print hello, (name) 
